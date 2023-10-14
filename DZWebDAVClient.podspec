@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.tvos.deployment_target = '9.0' 
   s.osx.deployment_target = '10.7'
-  s.dependency     'AFNetworking', '~> 1.0'
+  s.dependency     'AFNetworking', '~> 4.0'
   s.prefix_header_contents = <<-EOS
   #import <Availability.h>
 
